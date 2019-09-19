@@ -18,16 +18,18 @@ Functionnalities
 Dates
 -----
 
-    createdBefore(date)
-    createdAfter(date)
-    createdBetween(date) [..] _and(date) // don't forget the _ because "and" without it in a reserved word in PHP
-    before(date)
-    after(date)
-    between(date) [..] _and(date)
+```php
+createdBefore(date)
+createdAfter(date)
+createdBetween(date) [..] _and(date) // don't forget the _ because "and" without it in a reserved word in PHP
+before(date)
+after(date)
+between(date) [..] _and(date)
 
-    modifiedBefore(date)
-    modifiedAfter(date)
-    modifiedBetween(date) [..] _and(date)
+modifiedBefore(date)
+modifiedAfter(date)
+modifiedBetween(date) [..] _and(date)
+```
 
 Owner
 -----
